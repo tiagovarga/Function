@@ -35,6 +35,8 @@ public class Product {
 		return name + "," + String.format("%.2f", price) ;
 	}
 	
-	
+	public static String staticUppercaseName(Product p) {
+		return p.getName().toUpperCase();
+	}
 
 }
